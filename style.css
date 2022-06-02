@@ -52,8 +52,27 @@ body{
     width: 100%; /* makes the image full-width*/
     height: 50vh; /*defines the height of an image in vertical height units*/
 }
-
-
+/*Styling the image insidde the table*/
+table img{
+    height: 500px;
+    width: 400px;
+}
+table img:hover{
+    opacity:5; /*On hovering the image,blur the image to 0.5*/
+    transform: scale(1.005);/*Increases the width and height of the image by 1.005*/
+    transition: ease-in 2s;/*Dictates method and tie taken for the transformation to occur*/
+}
+/*Credits section*/
+.credits{
+   background-color: brown;
+   padding: 30px;
+   color: white;
+   font-size: 24px;
+}
+.credits:hover{
+    transform: rotate(15deg);
+    transition: ease-in-out 10ms;
+}
 
 
 
