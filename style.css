@@ -1,0 +1,60 @@
+body{
+    background-color: #5fffea75;/*light Blue background*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;/*Main Website font*/
+    font-size: 16px; /*Default website font-size*/
+    text-align: center;/*Default text orientation */
+}
+.container{
+    width: 80%; /*making website to be boxed*/
+    background-color: white; /*white website background*/
+    margin: 0 auto; /*Align the website center */
+}
+ h1.title{
+     text-align: left!important;
+     color:brown;
+     text-transform:uppercase;
+     font-size:40px;
+     padding: 10px;
+ }
+ h1.title:hover{
+     text-decoration: overline;
+     color: #a52a2a75;
+     transition: ease-in-out .7s;
+}
+/*Navigation Bar */
+.top-menu{
+    background-color: brown;/*Assigning brown color */
+    overflow: hidden; /*Hiding the text overfolw*/
+}
+
+.top-menu ul li{
+    list-style-type:none; /*Removing the unorderd list bullets or markers */
+    float: left; /*Algn the list items horizontally */
+    border-right: 2px solid #5fffea; /*Adding the whie border */
+    padding: 5px 10px; /*Adding some space: vertical and horizontal */
+}
+.top menu ul li a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #5fffea;
+  font-weight:800 ;
+  font-size: 24px;
+}
+.top-menu ul li:hover {
+    background-color: #5fffea;
+}
+.top-menu ul li:hover a{
+    text-decoration: underline;
+    color: brown;
+}
+/*Styling the image */
+.main-img {
+    width: 100%; /* makes the image full-width*/
+    height: 50vh; /*defines the height of an image in vertical height units*/
+}
+
+
+
+
+
+
